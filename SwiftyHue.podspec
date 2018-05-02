@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
     base.osx.deployment_target = '10.11'
 
     base.source_files = 'Sources/Base/**/*.{h,swift}'
-    base.dependency 'Alamofire', '4.5.1'
+    base.dependency 'Alamofire', '4.7.2'
     base.dependency 'Gloss', '2.0.0'
   end
 
